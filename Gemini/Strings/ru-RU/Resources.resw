@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TitleText.Text" xml:space="preserve">
+    <value>Чат с Gemini</value>
+  </data>
+  <data name="ChatMenuButtonText.Text" xml:space="preserve">
+    <value>Чат</value>
+  </data>
+  <data name="HistoryHeader.Text" xml:space="preserve">
+    <value>История диалогов</value>
+  </data>
+  <data name="SettingsMenuButtonText.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="UserInput.PlaceholderText" xml:space="preserve">
+    <value>Спросите что-нибудь...</value>
+  </data>
+  <data name="ApiKeyLabel.Text" xml:space="preserve">
+    <value>Google AI Studio API Key</value>
+  </data>
+  <data name="ApiKeyHint.Text" xml:space="preserve">
+    <value>Ключ сохраняется в локальном изолированном хранилище приложения.</value>
+  </data>
+  <data name="SaveSettingsButton.Content" xml:space="preserve">
+    <value>Сохранить настройки</value>
+  </data>
+  <data name="StatusMessage.Text" xml:space="preserve">
+    <value>Настройки успешно сохранены!</value>
+  </data>
+  <data name="ThemeLabel.Text" xml:space="preserve">
+    <value>Тема приложения</value>
+  </data>
+  <data name="ThemeSystem.Content" xml:space="preserve">
+    <value>Как на устройстве</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>Тёмная</value>
+  </data>
+  <data name="DataManagementHeader.Text" xml:space="preserve">
+    <value>Управление конфигурацией данных</value>
+  </data>
+  <data name="ClearHistoryButton.Content" xml:space="preserve">
+    <value>Сбросить историю чатов</value>
+  </data>
+  <data name="HistoryStatusMessage.Text" xml:space="preserve">
+    <value>Вся история диалогов успешно удалена!</value>
+  </data>
+  <data name="InfoTitle.Text" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="InfoAuthor.Text" xml:space="preserve">
+    <value>Написано foxgalaxy23 в 2026 году</value>
+  </data>
+  <data name="InfoSelfPromo.Text" xml:space="preserve">
+    <value>Самореклама</value>
+  </data>
+  <data name="CloseButton.Content" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="NewSessionWelcome" xml:space="preserve">
+    <value>Открыт новый диалог. Введите ваш запрос ниже...</value>
+  </data>
+  <data name="ApiKeyWarning" xml:space="preserve">
+    <value>Пожалуйста, перейдите в Настройки и укажите ваш API Key.</value>
+  </data>
+  <data name="YouLabel" xml:space="preserve">
+    <value>Вы</value>
+  </data>
+  <data name="SystemLabel" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="SessionRestoreError" xml:space="preserve">
+    <value>Не удалось восстановить сессию.</value>
+  </data>
+  <data name="LanguageLabel.Text" xml:space="preserve">
+    <value>Язык приложения</value>
+  </data>
+  <data name="ModelLabel.Text" xml:space="preserve">
+    <value>Модель Gemini</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ChatTitle" xml:space="preserve">
+    <value>Чат с Gemini</value>
+  </data>
+  <data name="WelcomeTitle.Text" xml:space="preserve">
+    <value>Добро пожаловать в Gemini</value>
+  </data>
+  <data name="WelcomeSub.Text" xml:space="preserve">
+    <value>Ваш ИИ-помощник на Windows 10 Mobile</value>
+  </data>
+  <data name="CapabilitiesTitle.Text" xml:space="preserve">
+    <value>Возможности</value>
+  </data>
+  <data name="CapabilitiesDesc.Text" xml:space="preserve">
+    <value>Gemini поможет вам в написании текстов, планировании, обучении и многом другом. Это мощный мультимодальный ИИ от Google.</value>
+  </data>
+  <data name="DisclaimerTitle.Text" xml:space="preserve">
+    <value>Дисклеймер</value>
+  </data>
+  <data name="DisclaimerDesc.Text" xml:space="preserve">
+    <value>Это неофициальный клиент для Gemini. Он не связан с Google и не одобрен ими. Используйте на свой страх и риск.</value>
+  </data>
+  <data name="ApiKeyTitle.Text" xml:space="preserve">
+    <value>Начнем работу</value>
+  </data>
+  <data name="ApiKeyWelcome.Text" xml:space="preserve">
+    <value>Чтобы начать чат, пожалуйста, введите ваш API ключ Google AI Studio.</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="StartButton.Content" xml:space="preserve">
+    <value>Начать чат</value>
+  </data>
+</root>

@@ -1,0 +1,64 @@
+<Page
+    x:Class="Gemini.WelcomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gemini"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <FlipView x:Name="WelcomeFlipView" Grid.Row="0" SelectionChanged="WelcomeFlipView_SelectionChanged">
+            <!-- Slide 1: Welcome -->
+            <FlipViewItem>
+                <StackPanel VerticalAlignment="Center" Padding="30">
+                    <FontIcon Glyph="&#xE946;" FontSize="80" FontFamily="Segoe MDL2 Assets" Foreground="{ThemeResource SystemControlHighlightAccentBrush}" Margin="0,0,0,20"/>
+                    <TextBlock x:Uid="WelcomeTitle" Text="Welcome to Gemini" FontSize="28" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,10"/>
+                    <TextBlock x:Uid="WelcomeSub" Text="Your AI assistant on Windows 10 Mobile" FontSize="18" Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}" TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+            </FlipViewItem>
+
+            <!-- Slide 2: Capabilities -->
+            <FlipViewItem>
+                <StackPanel VerticalAlignment="Center" Padding="30">
+                    <FontIcon Glyph="&#xECA5;" FontSize="80" FontFamily="Segoe MDL2 Assets" Foreground="{ThemeResource SystemControlHighlightAccentBrush}" Margin="0,0,0,20"/>
+                    <TextBlock x:Uid="CapabilitiesTitle" Text="Capabilities" FontSize="28" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,10"/>
+                    <TextBlock x:Uid="CapabilitiesDesc" Text="Gemini can help you with writing, planning, learning, and more." FontSize="18" Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}" TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+            </FlipViewItem>
+
+            <!-- Slide 3: Disclaimer -->
+            <FlipViewItem>
+                <StackPanel VerticalAlignment="Center" Padding="30">
+                    <FontIcon Glyph="&#xE7BA;" FontSize="80" FontFamily="Segoe MDL2 Assets" Foreground="{ThemeResource SystemControlHighlightAccentBrush}" Margin="0,0,0,20"/>
+                    <TextBlock x:Uid="DisclaimerTitle" Text="Disclaimer" FontSize="28" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,10"/>
+                    <TextBlock x:Uid="DisclaimerDesc" Text="This is an unofficial client for Gemini. It is not affiliated with or endorsed by Google." FontSize="18" Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}" TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+            </FlipViewItem>
+
+            <!-- Slide 4: API Key -->
+            <FlipViewItem>
+                <StackPanel VerticalAlignment="Center" Padding="30">
+                    <FontIcon Glyph="&#xE8D7;" FontSize="80" FontFamily="Segoe MDL2 Assets" Foreground="{ThemeResource SystemControlHighlightAccentBrush}" Margin="0,0,0,20"/>
+                    <TextBlock x:Uid="ApiKeyTitle" Text="Get Started" FontSize="28" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,10"/>
+                    <TextBlock x:Uid="ApiKeyWelcome" Text="To start chatting, please provide your Google AI Studio API Key." FontSize="16" Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}" TextAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,20"/>
+
+                    <PasswordBox x:Name="WelcomeApiKeyInput" PlaceholderText="Enter API Key" HorizontalAlignment="Stretch" Margin="0,0,0,20"/>
+
+                    <Button x:Name="StartButton" x:Uid="StartButton" Content="Start Chatting" HorizontalAlignment="Stretch" Click="StartButton_Click"/>
+                </StackPanel>
+            </FlipViewItem>
+        </FlipView>
+
+        <CommandBar Grid.Row="1" Background="Transparent" ClosedDisplayMode="Minimal">
+            <AppBarButton x:Name="BackNavButton" x:Uid="BackButton" Icon="Back" Label="Back" Click="BackNavButton_Click" Visibility="Collapsed"/>
+            <AppBarButton x:Name="NextNavButton" x:Uid="NextButton" Icon="Forward" Label="Next" Click="NextNavButton_Click" HorizontalAlignment="Right"/>
+        </CommandBar>
+    </Grid>
+</Page>
